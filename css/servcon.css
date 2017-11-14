@@ -1,0 +1,119 @@
+main h2 {
+  text-align: center;
+}
+
+#service1 {
+  width:95%;
+  margin:10px auto;
+  border-bottom:1px solid #3d2204;
+  overflow:hidden;
+  border-radius:0 0 0 10px;
+}
+
+#service2 {
+  float:left;
+  padding:1%;
+  border-radius:15px;
+  width:48%;
+  line-height:1.2em;
+  font-size:1em;
+}
+
+#service3 {
+  float:right;
+  padding:1%;
+  border-radius:15px;
+  width:48%;
+  line-height:1.2em;
+  font-size:1em;
+}
+
+#container h1 {
+  font-family: 'Slabo 27px', serif;
+  color:#33271a;
+  text-align: center;
+  line-height:1.2em;
+  padding:2%;
+  margin:2%;
+  border-bottom: 2px solid #33271a;
+  border-radius:5px 5px 0 0;
+  background:rgba(255, 255, 255, .6);
+}
+
+#accordion {
+    width:95%;
+    padding:1%;
+    margin:5px auto;
+    border:1px solid #3d2204;
+}
+
+#accordion h3 {
+  border:1px solid black;
+  cursor: pointer;
+  padding:10px;
+  margin:4px;
+}
+
+#accordion p {
+  padding:10px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 90%;
+  margin:0 auto;
+  }
+  .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+  }
+
+form {
+  margin:0 auto;
+  width:90%;
+}
+
+label {
+  display:block;
+  float:left;
+  font-size:1.2em;
+  font-family: 'Slabo 27px', serif;
+  padding:5px;
+}
+
+  input[type=text], input[type=email] {
+    clear:both;
+    display:block;
+    padding:7px;
+    width:55%;
+  }
+
+select {
+  float:left;
+  margin:10px;
+  display:block;
+  padding:2px;
+}
+
+  textarea {
+    display:block;
+    clear:both;
+    padding:5px;
+  }
+
+
+
+  input[type=submit] {
+    float:right;
+    padding:5px 10px;
+    font-size:1em;
+    margin:5px 15px 5px 5px;
+    cursor:pointer;
+  }
